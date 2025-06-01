@@ -1,18 +1,10 @@
 pluginManagement {
-    def flutterSdkPath = {
-        def properties = new Properties()
-        file("local.properties").withInputStream { properties.load(it) }
-        def flutterSdkPath = properties.getProperty("flutter.sdk")
-        assert flutterSdkPath != null, "flutter.sdk not found in local.properties"
-        return flutterSdkPath
-    }()
-
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
         maven {
-            url "${flutterSdkPath}/packages/flutter_tools/gradle/"
+            url = uri("https://storage.googleapis.com/download.flutter.io")
         }
     }
 }
