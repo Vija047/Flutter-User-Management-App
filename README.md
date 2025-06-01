@@ -143,7 +143,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## App Preview
 
 ### Video Demo
-![App Demo](https://www.loom.com/share/3586be841f03402eb62aad9da9874451?sid=5def16eb-d6cc-42d9-a8bb-f8d6012484a6)
+
+<details>
+<summary>Alternative Video Links</summary>
+- [Watch on Loom](https://www.loom.com/share/3586be841f03402eb62aad9da9874451?sid=448e9724-3776-40d1-b792-3b7e9914cb2b)
+</details>
+
+> Note: If the video links are not accessible, please check the `/videos` directory in the project root for a local copy.
 
 ### Screenshots
 
