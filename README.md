@@ -80,18 +80,19 @@ lib/
    - View user todos
    - Track todo completion status
 
-## Getting Started
+## Setup Instructions
 
-### Prerequisites
-- Flutter SDK (latest stable version)
-- Dart SDK
+### Environment Requirements
+- Flutter SDK (3.x or higher)
+- Dart SDK (3.x or higher)
 - Android Studio / VS Code
-- Android Emulator / iOS Simulator
+- Git
 
-### Installation
+### Step-by-Step Setup
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/flutter_user_management_app.git
+cd flutter_user_management_app
 ```
 
 2. Install dependencies
@@ -99,29 +100,83 @@ git clone https://github.com/yourusername/flutter_user_management_app.git
 flutter pub get
 ```
 
-3. Run the application
+3. Configure Android Studio/VS Code
+- Install Flutter and Dart plugins
+- Set up Flutter SDK path
+- Configure an emulator/simulator
+
+4. Run the application
 ```bash
+# For development
 flutter run
+
+# For release build
+flutter build apk --release
 ```
 
-## Architecture
+### Troubleshooting
+Common issues and solutions:
+- Gradle build fails: Run `flutter clean` and try again
+- Plugin issues: Update Flutter and dependencies
+- Android SDK issues: Verify SDK installation and paths
 
-### BLoC Pattern Implementation
-- Clear separation of UI and business logic
-- Predictable state management
-- Efficient data flow
+## Project Architecture
 
-### Data Flow
+### Layer Structure
 ```
-UI → Events → BLoC → States → UI
-         ↑            ↓
-      Repository    API
+lib/
+├── blocs/          # Business Logic Components
+│   └── user/       # User-related state management
+├── models/         # Data models and entities
+├── screens/        # UI components and screens
+├── services/       # API and external services
+└── utils/          # Helper functions and constants
 ```
+
+### Design Patterns
+1. BLoC Pattern
+   - State management
+   - Event handling
+   - Data flow control
+
+2. Repository Pattern
+   - Data abstraction
+   - API integration
+   - Cache management
+
+3. Clean Architecture
+   - Separation of concerns
+   - Dependency injection
+   - Testable components
 
 ### Error Handling
-- Comprehensive error catching
-- User-friendly error messages
-- Graceful degradation
+```
+UI Layer → Shows user-friendly messages
+↓
+BLoC Layer → Manages error states
+↓
+Service Layer → Handles API/technical errors
+```
+
+## Quality Assurance
+
+### Code Quality
+- Lint rules enforced
+- Code formatting with dartfmt
+- Documentation standards
+- Error handling guidelines
+
+### Testing Coverage
+- Unit tests for business logic
+- Widget tests for UI components
+- Integration tests for API
+- Performance testing
+
+### Performance Metrics
+- Startup time < 2s
+- Frame rate > 60fps
+- Memory usage < 100MB
+- API response < 1s
 
 ## Testing
 - Unit tests for BLoC logic
