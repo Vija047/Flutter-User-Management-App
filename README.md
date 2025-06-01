@@ -12,20 +12,20 @@ This project is a user management application that showcases best practices in F
 
 ## Requirements Implementation
 
-### 1. API Integration ✅
+### 1. API Integration 
 - Integration with DummyJSON Users API
 - Implemented pagination using limit/skip parameters
 - Real-time search functionality by user name
 - Infinite scrolling in user list
 - Nested API calls for user posts and todos
 
-### 2. BLoC State Management ✅
+### 2. BLoC State Management 
 - Implemented using flutter_bloc package
 - Proper state handling (Loading, Success, Error)
 - Separate events for different operations
 - Efficient nested data management
 
-### 3. UI Features ✅
+### 3. UI Features 
 - User List with avatars and details
 - Real-time search implementation
 - Detailed user profile view
@@ -33,13 +33,13 @@ This project is a user management application that showcases best practices in F
 - Loading indicators and error handling
 - Responsive and user-friendly design
 
-### 4. Code Quality ✅
+### 4. Code Quality 
 - Clean architecture implementation
 - Proper folder structure
 - Error handling and edge cases
 - Flutter/Dart best practices
 
-### 5. Bonus Features ✅
+### 5. Bonus Features 
 - Pull-to-refresh functionality
 - Offline data caching
 - Theme switching (Light/Dark)
