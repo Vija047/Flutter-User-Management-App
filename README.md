@@ -150,22 +150,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
 #### Welcome Screen
-<img src="screenshots/welcome_screen.png" width="250" alt="Welcome Screen"/>
+<img src="![alt text](image.png)" width="250" alt="Welcome Screen"/>
 
 #### Home Dashboard
-<img src="screenshots/home_dashboard.png" width="250" alt="Home Dashboard"/>
+<img src="![alt text](image-1.png)" width="250" alt="Home Dashboard"/>
 
 #### User List
-<img src="screenshots/user_list.png" width="250" alt="User List"/>
+<img src="![alt text](image-2.png)" width="250" alt="User List"/>
 
 #### Search Feature
-<img src="screenshots/search_screen.png" width="250" alt="Search Feature"/>
+<img src="![alt text](image-3.png)" width="250" alt="Search Feature"/>
 
 #### User Details
-<img src="screenshots/user_details.png" width="250" alt="User Details"/>
+<img src="![alt text](image-4.png)" width="250" alt="User Details"/>
 
 #### Settings
-<img src="screenshots/settings.png" width="250" alt="Settings"/>
+<img src="![alt text](image-5.png)" width="250" alt="Settings"/>
 
 </div>
 
