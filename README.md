@@ -153,20 +153,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ![alt text](image.png)
 
 #### Home Dashboard
-<img src="![alt text](image-1.png)" width="250" alt="Home Dashboard"/>
+![alt text](image-1.png)
 
 #### User List
-<img src="![alt text](image-2.png)" width="250" alt="User List"/>
+![alt text](image-2.png)"
 
 #### Search Feature
-<img src="![alt text](image-3.png)" width="250" alt="Search Feature"/>
+![alt text](image-3.png)" 
 
 #### User Details
-<img src="![alt text](image-4.png)" width="250" alt="User Details"/>
+![alt text](image-4.png)" 
 
 #### Settings
-<img src="![alt text](image-5.png)" width="250" alt="Settings"/>
-
+![alt text](image-5.png)" 
 </div>
 
 ### Key Features Demonstrated
