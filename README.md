@@ -150,7 +150,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
 #### Welcome Screen
-<img src="![alt text](image.png)" width="250" alt="Welcome Screen"/>
+![alt text](image.png)
 
 #### Home Dashboard
 <img src="![alt text](image-1.png)" width="250" alt="Home Dashboard"/>
